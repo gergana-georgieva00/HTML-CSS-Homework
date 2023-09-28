@@ -1,3 +1,4 @@
-article > code {
-    text-decoration: line-through
+span:first-child {
+    font-weight: bold;
+    color:red
   }
