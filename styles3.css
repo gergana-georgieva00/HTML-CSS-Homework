@@ -1,3 +1,3 @@
-article p {
-    background-color: yellow;
+span + p {
+    text-decoration: underline
   }
