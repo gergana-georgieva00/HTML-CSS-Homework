@@ -1,3 +1,4 @@
-p:last-of-type {
-    background-color: yellow;
+span:nth-child(odd) {
+    color: white;
+    background-color: red;
   }
