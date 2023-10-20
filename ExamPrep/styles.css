@@ -46,6 +46,14 @@ img{
     border-radius: 1em;
 }
 
+.section-content article .entry-content{
+    padding: 1.5em;
+}
+
+.section-content article .entry-content p{
+    margin: 1em 0 1em 0;
+}
+
 .section-content article{
     flex: 1 1 30%;
     background: #819daf;
@@ -54,4 +62,11 @@ img{
 
 .section-content article .button{
     color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: #327dc4;
+    border: 1px solid #4266c6;
+    outline: 1px solid white;
+    padding: 0.5em 1em;
+    border-radius: 2em;
 }
