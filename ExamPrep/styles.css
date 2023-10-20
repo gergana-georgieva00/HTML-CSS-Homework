@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html{
+    font: 12px/1.5 Poppins, sans-serif;
 }
 
 body{
@@ -19,11 +25,33 @@ img{
     height: auto;
 }
 
+.section-header{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.section-header h2 span{
+    color: #327dc4;
+}
+
 .section-content{
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
+}
+
+.section-content article,
+.section-content article .media{
+    display: block;
+    overflow: hidden;
+    border-radius: 1em;
 }
 
 .section-content article{
-    flex: 1 1 30%
+    flex: 1 1 30%;
+    background: #819daf;
+    color:black;
+}
+
+.section-content article .button{
+    color: white;
 }
