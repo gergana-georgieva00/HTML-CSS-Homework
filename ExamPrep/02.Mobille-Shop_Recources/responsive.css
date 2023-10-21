@@ -16,4 +16,42 @@
     .home-container03{
         align-items: center;
     }
+
+    .section-container{
+        padding-top: 40px;
+    }
+
+    .home-cards-container{
+        gap: 20px;
+    }
+
+    .category-card-category-card{
+        flex: 0 0 47.9%;
+    }
+
+    .category-card-category-card img{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .home-full-width-banner.section-container{
+        flex-direction: column;
+    }
+
+    .home-left4{
+        padding: 2em 0;
+    }
+
+    .home-left4 span{
+        display: block;
+    }
+
+    .home-left4 .home-content{
+        margin-bottom: 20px;
+    }
+
+    .home-text30{
+        width: auto;
+    }
 }
