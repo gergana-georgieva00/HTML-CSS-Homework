@@ -71,4 +71,9 @@
     .home-links-container{
         flex-direction: column;
     }
+
+    .home-container09{
+        order: 1000;
+        padding-top: 3em;
+    }
 }
