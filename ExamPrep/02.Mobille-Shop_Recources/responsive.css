@@ -1,5 +1,19 @@
 @media (max-width: 600px) {
+    .home-left, 
+    .home-right,
     .home-container01{
         display: none;
+    }
+
+    .navbar-logo-title{
+        margin: 0;
+    }
+
+    .home-hero1{
+        flex-direction: column;
+    }
+
+    .home-container03{
+        align-items: center;
     }
 }
